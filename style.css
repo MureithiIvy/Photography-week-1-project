@@ -1,9 +1,29 @@
-body{
+*{
+    margin: 0;
+    padding:0;
     
 }
 
-.container img {
-    
-    height: 200;
-    border-radius : 50%;
+
+body{
+    background-color: antiquewhite;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.text{
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 150px;
+    justify-content: center;
+}
+
+#round{
+    width: 250px;
+    border-radius: 50%;
 }
