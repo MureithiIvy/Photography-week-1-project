@@ -16,6 +16,11 @@ body{
     margin-bottom: 50px;
 }
 
+#header{
+    font-weight: 400;
+    
+}
+
 .text{
     color:blue;
     font-size: medium;
